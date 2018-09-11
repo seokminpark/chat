@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8" />
+        <title>Chat</title>
+        <link rel="stylesheet" href="../assets/css/reset.css" />
+        <link rel="stylesheet" href="../assets/css/style-common.css" />
+        <link rel="stylesheet" href="../assets/css/style-window.css" />
+        <link rel="stylesheet" href="../assets/css/style-login.css" />
+    </head>
+    <body>
+
+        <div class="wrapper">
+
+            <!--app login random member-->
+            <div class="app-random-user-wrapper">
+                <div class="app-random-user-image">
+                    <span></span>
+                </div>
+
+                <div class="app-random-user-info">
+                    <div class="app-random-user-info-wrapper">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="app-login-wrapper">
+                <div class="app-login-box">
+                    <div class="app-login-box-form">
+                        <h1 class="app-login-box-form-header">인사이트</h1>
+
+                        <ul class="app-login-box-form-ul">
+                            <li>
+                                <div class="app-login-box-form-label">
+                                    <span class="app-login-box-form-label-text">아이디</span>
+                                    <span class="app-error-message app-error app-error-id">아이디가 존재하지 않습니다.</span>
+                                </div>
+
+                                <div class="app-login-box-form-input">
+                                    <label>
+                                        <input type="text" name="memId" value="" spellcheck="false" autocomplete="off" />
+                                    </label>
+
+                                    <span class="app-error-icon app-error app-error-id"><i class="fas fa-exclamation-triangle"></i></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="app-login-box-form-label">
+                                    <span class="app-login-box-form-label-text">비밀번호</span>
+                                    <span class="app-error-message app-error app-error-pass">비밀번호가 일치하지 않습니다.</span>
+                                </div>
+
+                                <div class="app-login-box-form-input">
+                                    <label>
+                                        <input type="password" name="memPass" value="" spellcheck="false" autocomplete="off" />
+                                    </label>
+
+                                    <span class="app-error-icon app-error app-error-pass"><i class="fas fa-exclamation-triangle"></i></span>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <div class="app-login-box-form-btn">
+                            <a href="javascript:;" class="app-login-box-form-btn-submit">로그인</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="app-login-copyright">
+                    <span>v1.0.0</span>
+                </div>
+            </div>
+
+            <div class="app-logo">
+                <span class="app-logo-name">chat</span>
+                <span class="app-logo-icon"></span>
+            </div>
+        </div>
+
+        <header class="window-bar">
+            <div class="window-bar-drag-region">
+                <div class="window-bar-drag-region-controls">
+                    <div class="window-bar-drag-region-controls-button" id="controls-button-min">
+                        <span>&#xE921;</span>
+                    </div>
+
+                    <div class="window-bar-drag-region-controls-button" id="controls-button-max">
+                        <span>&#xE922;</span>
+                    </div>
+
+                    <div class="window-bar-drag-region-controls-button" id="controls-button-restore">
+                        <span>&#xE923;</span>
+                    </div>
+
+                    <div class="window-bar-drag-region-controls-button" id="controls-button-close">
+                        <span>&#xE8BB;</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+    </body>
+</html>

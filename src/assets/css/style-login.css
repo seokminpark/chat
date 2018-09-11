@@ -1,0 +1,187 @@
+.window-bar-drag-region-controls-button {
+    color: #000;
+}
+.window-bar-drag-region-controls-button:hover {
+    background: #c7cacf;
+}
+
+.wrapper {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.app-random-user-wrapper {
+    float: left;
+    position: relative;
+    display: block;
+    width: 55%;
+    height: 100%;
+}
+.app-random-user-image {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: auto;
+}
+.app-random-user-info {
+    position: absolute;
+    display: block;
+    bottom: 15px;
+    right: 0;
+    z-index: auto;
+}
+.app-random-user-info-box {
+    clear: both;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    padding: 0 20px;
+    background: #a4ce4c;
+}
+.app-random-user-info-box span {
+    font-size: 12px;
+    color: #fff;
+}
+
+.app-login-wrapper {
+    float: right;
+    position: relative;
+    display: block;
+    width: 45%;
+    height: 100%;
+}
+.app-login-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.app-login-box-form {
+    display: block;
+    width: 100%;
+    padding: 0 80px;
+}
+.app-login-box-form-header {
+    display: block;
+    font-family: "Nanum Gothic 800", sans-serif;
+    font-size: 42px;
+    text-align: left;
+}
+
+.app-login-box-form-ul {
+    display: block;
+    margin-top: 30px;
+}
+.app-login-box-form-ul li {
+    display: block;
+    padding-top: 20px;
+}
+.app-login-box-form-ul li:first-child {
+    padding-top: 0;
+}
+.app-login-box-form-label {
+    display: flex;
+    align-items: center;
+    height: 24px;
+}
+.app-login-box-form-label-text {
+    float: left;
+    font-size: 14px;
+}
+.app-login-box-form-input {
+    clear: both;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+}
+.app-login-box-form-input label {
+    display: block;
+    width: 100%;
+}
+.app-login-box-form-input input {
+    display: block;
+    width: 100%;
+    height: 42px;
+    padding: 0 40px 0 20px;
+    font-size: 15px;
+    border: 1px solid #dbe6f1;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+.app-login-box-form-input input:focus {
+    border: 1px solid #06a1ff;
+}
+.app-login-box-form-btn {
+    display: block;
+    margin-top: 30px;
+}
+.app-login-box-form-btn a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 44px;
+    font-family: "Nanum Gothic 700", sans-serif;
+    font-size: 18px;
+    color: #fff;
+    background: #06a1ff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.app-login-copyright {
+    position: absolute;
+    display: block;
+    bottom: 15px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: auto;
+}
+.app-login-copyright span {
+    display: block;
+    padding: 0 15px;
+    font-family: Consolas, sans-serif;
+    font-size: 12px;
+    color: #dbe6f1;
+    text-align: right;
+}
+
+.app-error-message {
+    float: left;
+    display: none;
+    margin-left: 10px;
+    font-size: 13px;
+    color: #e94347;
+}
+.app-error-icon {
+    position: absolute;
+    display: none;
+    align-items: center;
+    top: 0;
+    right: 20px;
+    width: 12px;
+    height: 42px;
+    z-index: auto;
+}
+.app-error-icon i {
+    font-size: 11px;
+    color: #e94347;
+}
+
+.app-logo {
+    top: 30px;
+    left: 30px;
+}
