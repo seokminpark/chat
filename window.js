@@ -13,7 +13,7 @@ function initWindow() {
         frame: false,
         show: false,
         icon: path.join(__dirname, '/src/assets/resources/icons/48x48.png'),
-        backgroundColor: '#fff'
+        backgroundColor: '#ffffff'
     });
 
     mainWindow.loadURL(url.format({
