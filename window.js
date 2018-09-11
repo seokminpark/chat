@@ -16,6 +16,12 @@ function initWindow() {
         backgroundColor: '#fff'
     });
 
+    mainWindow.loadURL(url.format({
+        pathname: path.join(__dirname, '/dist/template/login.html'),
+        protocol: 'file',
+        slashes: true
+    }));
+
     mainWindow.on('ready-to-show', () => {
         mainWindow.show();
     });
