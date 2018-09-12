@@ -6,7 +6,8 @@ module.exports = [{
     mode: 'development',
     entry: {
         common: path.resolve(__dirname, './src/assets/js/common.js'),
-        index: path.resolve(__dirname, './src/assets/js/index.js')
+        index: path.resolve(__dirname, './src/assets/js/index.js'),
+        main: path.resolve(__dirname, './src/assets/js/main.js')
     },
     output: {
         filename: 'assets/js/[name].bundle.js',
@@ -32,6 +33,11 @@ module.exports = [{
             filename: path.resolve(__dirname, './dist/views/index.html'),
             template: path.resolve(__dirname, './src/views/index.html'),
             chunks: ['common', 'index']
+        }),
+        new HtmlWebpackPlugin({
+            filename: path.resolve(__dirname, './dist/views/main.html'),
+            template: path.resolve(__dirname, './src/views/main.html'),
+            chunks: ['common', 'main']
         })
     ],
     watch: true,

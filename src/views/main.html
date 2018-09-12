@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8" />
+        <title>Chat</title>
+        <link rel="stylesheet" href="../assets/css/reset.css" />
+        <link rel="stylesheet" href="../assets/css/fontello/fontello.css" />
+        <link rel="stylesheet" href="../assets/css/style-common.css" />
+        <link rel="stylesheet" href="../assets/css/style-window.css" />
+        <link rel="stylesheet" href="../assets/css/style-main.css" />
+    </head>
+    <body>
+
+        <div class="wrapper">
+            <div class="app-wrapper">
+
+                <!-- App Side - Search, Channel, Direct Message -->
+                <div class="app-side">
+                    <div class="app-side-overflow">
+
+                        <!-- wrapper -->
+                        <div class="app-side-wrapper">
+                            <!-- Search -->
+                            <div class="app-side-search">
+                                <!-- Search Icon -->
+                                <span class="app-side-search-icon">
+                                    <i class="fal fa-search"></i>
+                                </span>
+                                <!-- Search Input -->
+                                <div class="app-side-search-input">
+                                    <input type="text" name="query" value="" placeholder="검색" />
+                                </div>
+                            </div>
+
+                            <!-- 직원 검색 목록 -->
+                            <div class="app-side-search-result">
+                                <ul>
+                                    <!--<li>-->
+                                        <!--<a href="javascript:;" class="app-side-search-result-item">-->
+                                            <!--<div class="app-side-search-result-item-image" style="background-image: url(http://img.insight.co.kr/files/user/small_30/211_profile.png?2018090411);"></div>-->
+                                            <!---->
+                                            <!--<div class="app-side-search-result-item-info">-->
+                                                <!--<span class="app-side-search-result-item-info-name">박석민</span>-->
+                                                <!--<span class="app-side-search-result-item-info-badge"></span>-->
+                                            <!--</div>-->
+                                        <!--</a>-->
+                                    <!--</li>-->
+                                </ul>
+                            </div>
+
+                            <!-- Channel, Direct Message -->
+                            <div class="app-side-message">
+                                <!-- Channel Main -->
+                                <div class="app-side-message-main">
+                                    <div class="app-side-message-main-header">
+                                        <a href="javascript:;" class="app-side-message-main-header-title">전체 ( 2 )</a>
+                                        <a href="javascript:;" class="app-side-message-main-header-add">
+                                            <span class="app-side-message-main-header-add-icon fal fa-plus-circle"></span>
+                                        </a>
+                                    </div>
+
+                                    <ul class="app-side-message-main-list">
+                                        <li>
+                                            <a href="javascript:;" class="app-side-message-main-item">
+                                                <div class="app-side-message-main-item-icon">
+                                                    <span class="">#</span>
+                                                </div>
+
+                                                <div class="app-side-message-main-item-info">
+                                                    <span class="app-side-message-main-item-info-title">공지사항</span>
+                                                    <span class="app-side-message-main-item-info-badge"></span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;" class="app-side-message-main-item">
+                                                <div class="app-side-message-main-item-icon">
+                                                    <span class="">#</span>
+                                                </div>
+
+                                                <div class="app-side-message-main-item-info">
+                                                    <span class="app-side-message-main-item-info-title">편집국</span>
+                                                    <span class="app-side-message-main-item-info-badge"></span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <!-- Channel Main -->
+                                <div class="app-side-message-main">
+                                    <div class="app-side-message-main-header">
+                                        <a href="javascript:;" class="app-side-message-main-header-title">채널 ( 4 )</a>
+                                        <a href="javascript:;" class="app-side-message-main-header-add">
+                                            <span class="app-side-message-main-header-add-icon fal fa-plus-circle"></span>
+                                        </a>
+                                    </div>
+
+                                    <ul class="app-side-message-main-list">
+                                        <li>
+                                            <a href="javascript:;" class="app-side-message-main-item">
+                                                <div class="app-side-message-main-item-icon">
+                                                    <span class="">#</span>
+                                                </div>
+
+                                                <div class="app-side-message-main-item-info">
+                                                    <span class="app-side-message-main-item-info-title">편집국 1팀 회의</span>
+                                                    <span class="app-side-message-main-item-info-badge"></span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;" class="app-side-message-main-item">
+                                                <div class="app-side-message-main-item-icon">
+                                                    <span class="">#</span>
+                                                </div>
+
+                                                <div class="app-side-message-main-item-info">
+                                                    <span class="app-side-message-main-item-info-title">연예 1팀</span>
+                                                    <!--<span class="app-side-message-main-item-info-badge"></span>-->
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;" class="app-side-message-main-item">
+                                                <div class="app-side-message-main-item-icon">
+                                                    <span class="">#</span>
+                                                </div>
+
+                                                <div class="app-side-message-main-item-info">
+                                                    <span class="app-side-message-main-item-info-title">광고팀 전체 회의</span>
+                                                    <span class="app-side-message-main-item-info-badge"></span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;" class="app-side-message-main-item">
+                                                <div class="app-side-message-main-item-icon">
+                                                    <span class="">#</span>
+                                                </div>
+
+                                                <div class="app-side-message-main-item-info">
+                                                    <span class="app-side-message-main-item-info-title">개발팀</span>
+                                                    <!--<span class="app-side-message-main-item-info-badge"></span>-->
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <!-- Direct Main -->
+                                <div class="app-side-message-main direct">
+                                    <div class="app-side-message-main-header">
+                                        <a href="javascript:;" class="app-side-message-main-header-title">대화 ( 3 )</a>
+                                        <a href="javascript:;" class="app-side-message-main-header-add">
+                                            <span class="app-side-message-main-header-add-icon fal fa-plus-circle"></span>
+                                        </a>
+                                    </div>
+
+                                    <ul class="app-side-message-main-list">
+                                        <li>
+                                            <a href="javascript:;" class="app-side-message-main-item">
+                                                <div class="app-side-message-main-item-icon">
+                                                    <span style="background-image: url(http://img.insight.co.kr/files/user/small_18/218_profile.png?2018090411);"></span>
+                                                </div>
+
+                                                <div class="app-side-message-main-item-info">
+                                                    <span class="app-side-message-main-item-info-title">이철웅</span>
+                                                    <span class="app-side-message-main-item-info-badge"></span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;" class="app-side-message-main-item">
+                                                <div class="app-side-message-main-item-icon">
+                                                    <span style="background-image: url(http://img.insight.co.kr/files/user/small_18/235_profile.png?2018090411);"></span>
+                                                </div>
+
+                                                <div class="app-side-message-main-item-info">
+                                                    <span class="app-side-message-main-item-info-title">장영훈</span>
+                                                    <span class="app-side-message-main-item-info-badge"></span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- App Chat -->
+                <div class="app-chat">
+                    <div class="app-chat-room">
+                        <div class="app-chat-room-scroll">
+                            <div class="app-chat-room-wrapper">
+
+                                <div class="app-chat-room-message">
+                                    <span class="app-chat-room-message-profile" style="background-image: url(http://img.insight.co.kr/files/user/small_40/235_profile.png?2018090411);"></span>
+
+                                    <div class="app-chat-room-message-item">
+                                        <span class="app-chat-room-message-item-user">장영훈 <em>오전 6:30</em></span>
+                                        <span class="app-chat-room-message-item-memo">안녕하세요.</span>
+                                    </div>
+
+                                    <div class="clear"></div>
+                                </div>
+
+                                <div class="app-chat-room-message" data-type="message-send">
+                                    <span class="app-chat-room-message-profile" style="background-image: url(http://img.insight.co.kr/files/user/small_40/211_profile.png?2018090411);"></span>
+
+                                    <div class="app-chat-room-message-item">
+                                        <span class="app-chat-room-message-item-user">박석민 <em>오전 6:31</em></span>
+                                        <span class="app-chat-room-message-item-memo">픽픽으로 저장한 사진이 인스턴트 아티클에서 회전되어서 보일시 조치사항</span>
+                                    </div>
+
+                                    <div class="clear"></div>
+                                </div>
+
+                                <div class="app-chat-room-message" data-type="message-send">
+                                    <span class="app-chat-room-message-profile" style="background-image: url(http://img.insight.co.kr/files/user/small_40/211_profile.png?2018090411);"></span>
+
+                                    <div class="app-chat-room-message-item">
+                                        <span class="app-chat-room-message-item-user">박석민 <em>오전 6:33</em></span>
+                                        <span class="app-chat-room-message-item-memo">쇼트트랙 금메달리스트 오세종, 불법유턴 차량에 치여 사망</span>
+                                    </div>
+
+                                    <div class="clear"></div>
+                                </div>
+
+                                <div class="app-chat-room-message">
+                                    <span class="app-chat-room-message-profile" style="background-image: url(http://img.insight.co.kr/files/user/small_40/235_profile.png?2018090411);"></span>
+
+                                    <div class="app-chat-room-message-item">
+                                        <span class="app-chat-room-message-item-user">장영훈 <em>오전 6:36</em></span>
+                                        <span class="app-chat-room-message-item-memo">지난 27일 저녁 7시 10분 경 서울 마장동에서 오토바이를 몰던 오 씨가 유턴하던 차량과 정면으로 충돌해 그 자리에서 숨지는 사고가 발생했다</span>
+                                    </div>
+
+                                    <div class="clear"></div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="app-chat-room-input">
+                            <div class="app-chat-room-input-wrapper">
+                                <div class="app-chat-room-input-type">
+                                    <input type="text" name="" value="" placeholder="내용을 입력해 주세요." />
+                                </div>
+
+                                <div class="app-chat-room-input-media">
+                                    <a href="javascript:;" class="app-chat-room-input-media-image">
+                                        <span class="fal fa-image"></span>
+                                    </a>
+
+                                    <a href="javascript:;" class="app-chat-room-input-media-file">
+                                        <span class="fal fa-paperclip"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- app chat side -->
+                    <div class="app-chat-side">
+
+                    </div>
+                </div>
+                <!--// App Chat -->
+            </div>
+
+            <div class="clear"></div>
+        </div>
+
+        <div class="app-header">
+            <div class="">
+
+            </div>
+            <div class="app-header-user">
+                <div class="app-header-user-config">
+                    <a href="javascript:;" class="app-header-user-config-icon">
+                        <i class="fal fa-cog"></i>
+                    </a>
+                </div>
+
+                <div class="app-header-user-profile">
+                    <span class="app-header-user-profile-name">박석민</span>
+
+                    <span class="app-header-user-profile-image"></span>
+                </div>
+            </div>
+        </div>
+
+        <header class="window-bar">
+            <div class="window-bar-drag-region">
+                <div class="app-logo">
+                    <span class="app-logo-name">chat</span>
+                    <span class="app-logo-icon"></span>
+                </div>
+
+                <div class="window-bar-drag-region-controls">
+                    <div class="window-bar-drag-region-controls-button" id="controls-button-min">
+                        <span>&#xE921;</span>
+                    </div>
+
+                    <div class="window-bar-drag-region-controls-button" id="controls-button-max">
+                        <span>&#xE922;</span>
+                    </div>
+
+                    <div class="window-bar-drag-region-controls-button" id="controls-button-restore">
+                        <span>&#xE923;</span>
+                    </div>
+
+                    <div class="window-bar-drag-region-controls-button" id="controls-button-close">
+                        <span>&#xE8BB;</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+    </body>
+</html>
