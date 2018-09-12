@@ -12,7 +12,7 @@ function initWindow() {
         minHeight: 660,
         frame: false,
         show: false,
-        icon: path.join(__dirname, '/src/assets/resources/icons/48x48.png'),
+        icon: path.join(__dirname, '/dist/resources/icons/48x48.png'),
         backgroundColor: '#ffffff'
     });
 

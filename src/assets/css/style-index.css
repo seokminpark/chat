@@ -28,6 +28,14 @@
     height: 100%;
     z-index: auto;
 }
+.app-random-user-image span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-position: center 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
 .app-random-user-info {
     position: absolute;
     display: block;
@@ -35,7 +43,7 @@
     right: 0;
     z-index: auto;
 }
-.app-random-user-info-box {
+.app-random-user-info-wrapper {
     clear: both;
     display: flex;
     justify-content: center;
@@ -44,7 +52,7 @@
     padding: 0 20px;
     background: #a4ce4c;
 }
-.app-random-user-info-box span {
+.app-random-user-info-wrapper span {
     font-size: 12px;
     color: #fff;
 }
@@ -70,7 +78,8 @@
 }
 .app-login-box-form-header {
     display: block;
-    font-family: "Nanum Gothic 800", sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 800;
     font-size: 42px;
     text-align: left;
 }
@@ -132,7 +141,7 @@
     align-items: center;
     width: 100%;
     height: 44px;
-    font-family: "Nanum Gothic 700", sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
     font-size: 18px;
     color: #fff;
     background: #06a1ff;
