@@ -53,8 +53,8 @@ function userRenderHtml(user) {
 
 (function () {
 
-    console.log('aa');
-    console.log('branch');
+    // console.log('aa');
+    // console.log('branch');
 
     /**
      * ipcRenderer
