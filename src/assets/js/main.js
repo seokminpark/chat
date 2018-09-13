@@ -50,7 +50,7 @@ function userRenderHtml(user) {
         '</a>\n' +
         '</li>';
 }
-console.log('aaaaa');
+
 (function () {
 
     /**
